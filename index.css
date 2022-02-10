@@ -12,6 +12,7 @@
       --secondary-color: #90E0EF;
       --navyblue-color: #03045E;
       --white-color: #FFFFFF;
+      --box-shadow-color: rgba(0, 0, 0, 0.75);
 }
 
 .brand-container {
@@ -85,9 +86,9 @@
 .login-btn {
       background-color: var(--secondary-color);
       border: none;
-      box-shadow: 7px 10px 12px -7px rgba(0, 0, 0, 0.75);
-      -webkit-box-shadow: 7px 10px 12px -7px rgba(0, 0, 0, 0.75);
-      -moz-box-shadow: 7px 10px 12px -7px rgba(0, 0, 0, 0.75);
+      box-shadow: 7px 10px 12px -7px var(--box-shadow-color);
+      -webkit-box-shadow: 7px 10px 12px -7px var(--box-shadow-color);
+      -moz-box-shadow: 7px 10px 12px -7px var(--box-shadow-color);
 }
 
 .nav-button a {
@@ -130,9 +131,9 @@
       font-size: 1.2rem;
       border: none;
       background-color: var(--primary-color);
-      box-shadow: 7px 10px 12px -7px rgba(0, 0, 0, 0.75);
-      -webkit-box-shadow: 7px 10px 12px -7px rgba(0, 0, 0, 0.75);
-      -moz-box-shadow: 7px 10px 12px -7px rgba(0, 0, 0, 0.75);
+      box-shadow: 7px 10px 12px -7px var(--box-shadow-color);
+      -webkit-box-shadow: 7px 10px 12px -7px var(--box-shadow-color);
+      -moz-box-shadow: 7px 10px 12px -7px var(--box-shadow-color);
 }
 
 .explore-btn a {
