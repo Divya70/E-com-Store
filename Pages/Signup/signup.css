@@ -24,6 +24,7 @@
 
 /* Navigation Code Start */
 .navigation-cont {
+      /* width: 97vw; */
       height: 15vh;
       background-color: var(--primary-color);
       display: flex;
@@ -93,7 +94,7 @@
 }
 
 .nav-button a {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       text-decoration: none;
       color: var(--navyblue-color);
       font-weight: 600;
@@ -106,8 +107,7 @@
 }
 
 .main-image {
-
-      margin-top: 2rem;
+      margin-top: 7rem;
       margin-left: 3rem;
 }
 
@@ -115,7 +115,7 @@
       width: 35rem;
 }
 
-.login-page-container {
+.signup-page-container {
       position: relative;
       height: 50%;
       width: 40%;
@@ -129,41 +129,32 @@
       -moz-box-shadow: 5px 2px 19px 5px var(--box-shadow-blue-color);
 }
 
-.login-title {
+.signup-title {
       color: var(--navyblue-color);
       font-size: 2rem;
       text-align: center;
       font-weight: 900;
 }
 
-.login-form-cont {
-      width: 90%;
-      margin-top: 1rem;
+.signup-form-cont {
+      width: 80%;
+      padding: 2rem;
 }
 
-.login-form-cont input {
+.signup-form-cont input {
+      width: 20rem;
+      font-size: 1rem;
       padding: 10px 20px 10px 5px;
       border-radius: 2rem;
       border: 2px solid var(--navyblue-color);
       color: var(--navyblue-color);
-      padding-left: 1rem;
-
+      padding-left: 2rem;
 }
 
 .email {
-      padding: 1rem;
+      /* padding: 1rem; */
       color: var(--black-color);
       font-weight: 600;
-}
-
-.email input,
-.password input {
-      width: 20rem;
-      font-size: 1rem;
-}
-
-.password input {
-      margin-left: 1rem;
 }
 
 .password {
@@ -171,28 +162,18 @@
       font-weight: 600;
 }
 
-
-
-.options {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      padding: 5px;
+.username input,
+.password input {
+      margin: 1rem;
 }
 
-.remember-me label {
-      color: var(--black-color);
-      font-weight: 600;
-
-}
-
-.forgot-password a {
-      text-decoration: none;
-      color: var(--navyblue-color);
-      font-weight: 600;
+.email input,
+.confirm-password input {
+      margin-left: 1rem;
 }
 
 .form-button {
+      margin-top: 1rem;
       display: flex;
       justify-content: flex-end;
 

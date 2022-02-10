@@ -6,8 +6,8 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script src="https://kit.fontawesome.com/b20cfefdfb.js" crossorigin="anonymous"></script>
-      <link rel="stylesheet" href="/Pages/Login/login.css">
-      <title>Login</title>
+      <link rel="stylesheet" href="/Pages/Signup/signup.css">
+      <title>Sign UP</title>
 </head>
 
 <body>
@@ -38,30 +38,29 @@
                   <div class="main-image main-data">
                         <img src="/images/home-image.PNG" alt="">
                   </div>
-                  <div class="login-page-container">
-                        <h1 class="login-title">LOGIN</h1>
-                        <div class="login-form-cont">
+                  <div class="signup-page-container">
+                        <h1 class="signup-title">SIGN UP</h1>
+                        <div class="signup-form-cont">
+                              <div class="username">
+                                    <input type="text" placeholder="Username" required>
+                              </div>
                               <div class="email">
-                                    <input type="email" placeholder="Username or Email" required>
+                                    <input type="email" placeholder="Email" required>
                               </div>
                               <div class="password">
-                                    <input type="password" class="login-password input-field"
-                                          placeholder="User Password" required>
+                                    <input type="password" class="login-password input-field" placeholder="Password"
+                                          required>
                               </div>
-                              <div class="options">
-                                    <div class="remember-me">
-                                          <input id="remember-me" type="checkbox">
-                                          <label for="remember-me">Remember me</label>
-                                    </div>
-                                    <div class="forgot-password">
-                                          <a href="#">Forgot Password?</a>
-                                    </div>
+                              <div class="confirm-password">
+                                    <input type="text" class="login-password input-field" placeholder="confirm Password"
+                                          required>
                               </div>
                               <div class="form-button">
+                                    <button class="button" id="signup-button"><a href="/Pages/Login/login.html">Sign
+                                                Up</a></button>
                                     <button class="button" id="login-button"><a
                                                 href="/Pages/Products/products.html">Login</a></button>
-                                    <button class="button" id="signup-button"><a href="/Pages/Signup/signup.html">Sign
-                                                Up</a></button>
+
                               </div>
 
                         </div>
@@ -84,7 +83,7 @@
                   </ul>
             </footer>
       </div>
-      <script src="index.js"></script>
+      <script src="signup.js"></script>
 </body>
 
 </html>
