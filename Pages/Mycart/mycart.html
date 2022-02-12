@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://kit.fontawesome.com/b20cfefdfb.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="/Pages/Mycart/mycart.css">
+      <title>MY CART</title>
+</head>
+
+<body>
+      <div class="brand-container">
+            <nav class="navigation-cont">
+                  <div class="name-of-site">E-com Store</div>
+                  <div class="searchbar">
+                        <span><i class="fa fa-search" aria-hidden="true"></i></span>
+                        <input class="search-input" type="text" placeholder="Search">
+                  </div>
+
+                  <div class="nav-buttons-cont">
+                        <div class="nav-button nav-icons-name">
+                              <a href="/Pages/Wishlist/wishlist.html"><i class="fas fa-heart nav-icon"></i>
+                                    <span class="icon-badge">0</span>
+                              </a>
+                        </div>
+                        <div class="nav-button nav-icons-name">
+                              <a href="/Pages/Mycart/mycart.html"><i class="fas fa-shopping-cart nav-icon"></i>
+                                    <span class="icon-badge">0</span>
+                              </a>
+                        </div>
+                        <div class="nav-button login-btn">
+                              <a href="/Pages/Products/products.html">Shop Now</a>
+                        </div>
+                  </div>
+            </nav>
+            <!-- Main Conntainer code -->
+            <main class="main-content-cont">
+                  <h1 class="mycart-title">MY CART(2)</h1>
+                  <div class="mycart-brand-container">
+                        <div class="cart-container">
+                              <div class="product-card">
+                                    <div class="product-image">
+                                          <img src="/images/card1.jpg" />
+                                    </div>
+                                    <div class="mycart-details">
+                                          <div class="product-brand-name">Bata</div>
+                                          <div class="product-des">Women Platform Heels</div>
+                                          <div class="product-price-cont">
+                                                <div class="price">Rs.2999</div>
+                                                <div class="price-discount">Rs.5999</div>
+                                                <div class="price-OFF">50% OFF</div>
+                                          </div>
+                                          <div class="quantity">Quantity:
+                                                <button class="decrement-btn quantity-btn-inline">-</button>
+                                                <button class="qunatity-of-product quantity-btn-inline">2</button>
+                                                <button class="increment-btn quantity-btn-inline">+</button>
+                                          </div>
+                                          <div class="add-to-cart-cont">
+                                                <button class="icon-btn cart-button" id="remove-from-cart-btn">Remove
+                                                      From Cart</button>
+                                                <button class="icon-btn cart-button" id="move-to-wishlist-btn">Move to
+                                                      Wishlist</button>
+                                          </div>
+                                    </div>
+                              </div>
+
+                        </div>
+                        <!-- Price Details Code Start -->
+                        <div class="cart-container price-cont">
+                              <h1 class="price-details-title">PRICE DETAILS</h1>
+                              <ul>
+                                    <li class="lists price-text space-between price-des-size">Price (2 items)
+                                          <span class="price">&#x20B9 5998</span>
+                                    </li>
+                                    <li class="lists price-text space-between price-des-size">Discount
+                                          <span class="price">&#x20B9 3000</span>
+                                    </li>
+                                    <li class="lists price-text space-between price-des-size">Develery Charge
+                                          <span class="price">&#x20B9 299</span>
+                                    </li>
+                                    <li class="lists price-text space-between total-amount">TOTAL AMOUNT
+                                          <span class="price total-amount">&#x20B9 9300</span>
+                                    </li>
+                              </ul>
+                              <div class="save-price">You will have save &#x20B9 3000 on this order</div>
+                              <button class="place-order">PLACE ORDER</button>
+
+                        </div>
+                  </div>
+            </main>
+            <!-- Main Container code End -->
+      </div>
+      <script src="mycart.js"></script>
+</body>
+
+</html>
