@@ -1,22 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
-
-* {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-}
-
-:root {
-      --primary-color: #00B4D8;
-      --secondary-color: #90E0EF;
-      --navyblue-color: #03045E;
-      --white-color: #FFFFFF;
-      --black-color: #232020;
-      --box-shadow-black-color: rgba(0, 0, 0, 0.75);
-      --box-shadow-blue-color: rgba(0, 180, 216, 0.39);
-}
-
 .brand-container {
       width: 100%;
       height: 100%;
@@ -24,34 +5,40 @@
 
 /* Navigation Code Start */
 .navigation-cont {
+      width: 100%;
       height: 15vh;
-      background-color: var(--primary-color);
+      background-color: var(--secondary-color);
       display: flex;
       align-items: center;
       justify-content: space-around;
-      color: var(--navyblue-color);
+      color: var(--primary-color);
+      box-shadow: -1px 4px 19px -4px var(--box-shadow-black-color);
+      -webkit-box-shadow: -1px 4px 19px -4px var(--box-shadow-black-color);
+      -moz-box-shadow: -1px 4px 19px -4px var(--box-shadow-black-color);
+
 }
 
 .name-of-site {
       margin-right: 4rem;
-      font-size: 2rem;
+      font-size: 2.5rem;
       font-weight: 600;
+      font-family: 'Recursive', sans-serif;
+      color: var(--primary-color);
 }
 
 .searchbar {
       width: 20rem;
       height: 2rem;
-      background-color: var(--white-color);
       border-radius: 1rem;
       display: flex;
       align-items: center;
       padding: 1rem;
-      background-color: var(--secondary-color);
+      background-color: var(--searchbar-color);
 }
 
 .fa-search {
       font-size: 1rem;
-      color: var(--navyblue-color);
+      color: var(--primary-color);
 }
 
 .search-input {
@@ -62,17 +49,12 @@
       flex: 1;
       height: 2rem;
       font-weight: 600;
-      background-color: var(--secondary-color);
-}
-
-.nav-icons-name {
-      display: flex;
-      flex-direction: column;
-      font-weight: 600;
+      background-color: var(--searchbar-color);
 }
 
 .nav-buttons-cont {
       display: flex;
+      margin-left: 5rem;
 }
 
 .nav-button {
@@ -81,56 +63,65 @@
 }
 
 .nav-button i {
-      font-size: 1.5rem;
-}
-
-.login-btn {
-      background-color: var(--secondary-color);
-      border: none;
-      box-shadow: 7px 10px 12px -7px var(--box-shadow-black-color);
-      -webkit-box-shadow: 7px 10px 12px -7px var(--box-shadow-black-color);
-      -moz-box-shadow: 7px 10px 12px -7px var(--box-shadow-black-color);
+      font-size: 1.3rem;
 }
 
 .nav-button a {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       text-decoration: none;
-      color: var(--navyblue-color);
+      color: var(--primary-color);
       font-weight: 600;
+      margin-left: 1rem;
 }
 
+.nav-icons-name {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.5rem;
+      height: 2.5rem;
+      border: none;
+      outline: none;
+      border-radius: 50%;
+      margin-left: 1.5rem;
+      font-size: 1.5rem;
+      color: var(--primary-color);
+      margin-top: 0.5rem;
+}
+
+.icon-badge {
+      position: absolute;
+      top: -9px;
+      right: -4px;
+      width: 1.3rem;
+      height: 1.3rem;
+      background: var(--badge-color);
+      color: var(--secondary-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      font-size: 1rem;
+}
 
 /* Main Content Code Start */
-.main-content-cont {
-      display: flex;
-}
-
-.main-image {
-
-      margin-top: 2rem;
-      margin-left: 3rem;
-}
-
-.main-image img {
-      width: 35rem;
-}
-
 .login-page-container {
-      position: relative;
-      height: 50%;
-      width: 40%;
+      margin: auto;
+      height: 22rem;
+      margin-top: 5rem;
+      width: 25rem;
       border-radius: 0.2rem;
-      margin: 3rem;
-      display: inline-block;
-      background-color: var(--white-color);
+      background-color: var(--secondary-color);
       padding: 1rem;
-      box-shadow: 5px 2px 19px 5px var(--box-shadow-blue-color);
-      -webkit-box-shadow: 5px 2px 19px 5px var(--box-shadow-blue-color);
-      -moz-box-shadow: 5px 2px 19px 5px var(--box-shadow-blue-color);
+      box-shadow: 7px 10px 12px -7px var(--box-shadow-black-color);
+      -webkit-box-shadow: 7px 10px 12px -7px var(--box-shadow-black-color);
+      -moz-box-shadow: 7px 10px 12px -7px var(--box-shadow-black-color);
+
 }
 
 .login-title {
-      color: var(--navyblue-color);
+      color: var(--primary-color);
       font-size: 2rem;
       text-align: center;
       font-weight: 900;
@@ -144,7 +135,7 @@
 .login-form-cont input {
       padding: 10px 20px 10px 5px;
       border-radius: 2rem;
-      border: 2px solid var(--navyblue-color);
+      border: 2px solid var(--primary-color);
       color: var(--navyblue-color);
       padding-left: 1rem;
 
@@ -188,84 +179,31 @@
 
 .forgot-password a {
       text-decoration: none;
-      color: var(--navyblue-color);
+      color: var(--primary-color);
       font-weight: 600;
 }
 
-.form-button {
-      display: flex;
-      justify-content: flex-end;
-
-}
-
-.button {
+.login-button {
       margin: 1rem;
       border: none;
-      padding: 0.6rem;
-}
-
-.button a {
-      text-decoration: none;
-}
-
-#login-button {
-      color: var(--navyblue-color);
-      background-color: var(--secondary-color);
+      padding: 0.4rem;
+      width: 100%;
       font-size: 1.2rem;
       font-weight: 900;
+      background-color: var(--primary-color);
       box-shadow: 7px 10px 12px -7px var(--box-shadow-black-color);
       -webkit-box-shadow: 7px 10px 12px -7px var(--box-shadow-black-color);
       -moz-box-shadow: 7px 10px 12px -7px var(--box-shadow-black-color);
 }
 
-#signup-button {
-      color: var(--navyblue-color);
-      border: 2px solid var(--navyblue-color);
-      font-size: 1.2rem;
-      font-weight: 900;
-      box-shadow: 7px 10px 12px -7px var(--box-shadow-black-color);
-      -webkit-box-shadow: 7px 10px 12px -7px var(--box-shadow-black-color);
-      -moz-box-shadow: 7px 10px 12px -7px var(--box-shadow-black-color);
-}
-
-/* Footer Code Start */
-.footer {
-      background-color: var(--secondary-color);
-      padding: 2rem 1rem;
-      text-align: center;
-      color: var(--navyblue-color);
-      height: 10%;
-      font-weight: 600;
-}
-
-.link {
-      box-sizing: border-box;
+.login-button a {
       text-decoration: none;
-      padding: 0.5rem 1rem;
+      color: var(--secondary-color);
 }
 
-.social-link {
+.signup-link a {
       text-decoration: none;
-      list-style: none;
-      display: flex;
-}
-
-.footer .link {
-      color: var(--navyblue-color);
+      font-size: 1rem;
       font-weight: 600;
-}
-
-.link:hover {
-      color: var(--primary-color);
-}
-
-.footer .footer-header {
-      font-weight: bold;
-      font-size: large;
-}
-
-.footer ul {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      margin-left: 5rem
 }
