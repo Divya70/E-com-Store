@@ -7,13 +7,14 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script src="https://kit.fontawesome.com/b20cfefdfb.js" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="/Pages/Signup/signup.css">
+      <link rel="stylesheet" href="/docs.css">
       <title>Sign UP</title>
 </head>
 
 <body>
       <div class="brand-container">
             <nav class="navigation-cont">
-                  <div class="name-of-site">E-com Store</div>
+                  <h1 class="name-of-site">Spike</h1>
                   <div class="searchbar">
                         <span><i class="fa fa-search" aria-hidden="true"></i></span>
                         <input class="search-input" type="text" placeholder="Search">
@@ -22,68 +23,44 @@
                   <div class="nav-buttons-cont">
                         <div class="nav-button nav-icons-name">
                               <i class="fas fa-heart nav-icon"></i>
-                              wishlist
+                              <span class="icon-badge">1</span>
                         </div>
                         <div class="nav-button nav-icons-name">
                               <i class="fas fa-shopping-cart nav-icon"></i>
-                              cart
+                              <span class="icon-badge">2</span>
                         </div>
-                        <button class="nav-button login-btn">
+                        <div class="nav-button login-btn">
                               <a href="/index.html">Home</a>
-                        </button>
+                        </div>
                   </div>
+
             </nav>
             <!-- Main Conntainer code -->
-            <main class="main-content-cont">
-                  <div class="main-image main-data">
-                        <img src="/images/home-image.PNG" alt="">
-                  </div>
-                  <div class="signup-page-container">
-                        <h1 class="signup-title">SIGN UP</h1>
-                        <div class="signup-form-cont">
-                              <div class="username">
-                                    <input type="text" placeholder="Username" required>
-                              </div>
-                              <div class="email">
-                                    <input type="email" placeholder="Email" required>
-                              </div>
-                              <div class="password">
-                                    <input type="password" class="login-password input-field" placeholder="Password"
-                                          required>
-                              </div>
-                              <div class="confirm-password">
-                                    <input type="text" class="login-password input-field" placeholder="confirm Password"
-                                          required>
-                              </div>
-                              <div class="form-button">
-                                    <button class="button" id="signup-button"><a href="/Pages/Login/login.html">Sign
-                                                Up</a></button>
-                                    <button class="button" id="login-button"><a
-                                                href="/Pages/Products/products.html">Login</a></button>
-
-                              </div>
-
+            <main class="signup-page-container">
+                  <h1 class="signup-title">SIGN UP</h1>
+                  <div class="signup-form-cont">
+                        <div class="username">
+                              <input type="text" placeholder="Username" required>
+                        </div>
+                        <div class="email">
+                              <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="password">
+                              <input type="password" class="login-password input-field" placeholder="Password" required>
+                        </div>
+                        <div class="confirm-password">
+                              <input type="text" class="login-password input-field" placeholder="confirm Password"
+                                    required>
+                        </div>
+                        <button class="signup-button"><a href="/Pages/Login/login.html">Sign
+                                    Up</a></button>
+                        <div class="redirect-to-login">Already have an account?<a
+                                    href="/Pages/Login/login.html">Login</a>
                         </div>
                   </div>
             </main>
-            <!-- Main Container code End -->
-            <!-- Footer Code Start -->
-            <footer class="footer">
-                  <div class="footer-header">Made with <span style="color: red;">❤</span> by Divya Namdev</div>
-                  <ul class="social-link list-non-bullet">
-                        <li class="list-item-inline">
-                              <a class="link" href="https://github.com/Divya70">github</a>
-                        </li>
-                        <li class="list-item-inline">
-                              <a class="link" href="https://www.linkedin.com/in/divya-namdev-115a1619a">Linkedin</a>
-                        </li>
-                        <li class="list-item-inline">
-                              <a class="link" href="https://twitter.com/DivyaSi32558841?s=08">twitter</a>
-                        </li>
-                  </ul>
-            </footer>
       </div>
-      <script src="signup.js"></script>
+      <script src="/Pages/Signup/signup.js"></script>
 </body>
 
 </html>

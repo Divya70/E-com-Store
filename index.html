@@ -7,13 +7,15 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script src="https://kit.fontawesome.com/b20cfefdfb.js" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="index.css">
+      <link rel="stylesheet" href="/docs.css">
       <title>Home</title>
 </head>
 
 <body>
       <div class="brand-container">
+            <!---------Navigation Code-------->
             <nav class="navigation-cont">
-                  <div class="name-of-site">E-com Store</div>
+                  <h1 class="name-of-site">Spike</h1>
                   <div class="searchbar">
                         <span><i class="fa fa-search" aria-hidden="true"></i></span>
                         <input class="search-input" type="text" placeholder="Search">
@@ -22,44 +24,71 @@
                   <div class="nav-buttons-cont">
                         <div class="nav-button nav-icons-name">
                               <i class="fas fa-heart nav-icon"></i>
-                              wishlist
+                              <span class="icon-badge">1</span>
                         </div>
                         <div class="nav-button nav-icons-name">
                               <i class="fas fa-shopping-cart nav-icon"></i>
-                              cart
+                              <span class="icon-badge">2</span>
                         </div>
-                        <button class="nav-button login-btn">
+                        <div class="nav-button login-btn">
                               <a href="/pages/Login/login.html">Login</a>
-                        </button>
+                        </div>
                   </div>
+
             </nav>
+            <!--------Main Body Code-------->
             <main class="main-content-cont">
-                  <div class="heading-cont main-data">
-                        <h1 class="e-heading">Build exactly the eCommerce website you want</h1>
-                        <p class="e-des">Whether you’re just starting out or an established high-volume business,
-                              our ecommerce platform has the features you’ll need to empower your online growth.
-                        </p>
-                        <button class="explore-btn"><a href="/Pages/Products/products.html">Explore Now -></a></button>
+                  <div class="home-sec-image">
+                        <img src="/images/home-img.PNG" alt="">
+                        <h1 class="home-title">We are Selling Best Styles Here</h1>
                   </div>
-                  <div class="main-image main-data">
-                        <img src="/images/home-image.PNG" alt="">
-                  </div>
+                  <section>
+                        <h2 class="home-heading-h2">Best Selling Products</h2>
+                        <p class="best-sell-para">The cone heel is defined by a thick, sturdy base for a secure stand
+                              and a
+                              narrow, delicate tip.
+                              Cone heels can be used for all kinds of heeled shoes and can come in various heights. This
+                              heel
+                              style is versatile and timeless.</p>
+                        <div class="best-sell-cont">
+                              <img src="/images/product1.PNG" alt="">
+                              <h3 class="best-sell-heading">Trending Product</h3>
+                        </div>
+                        <div class="best-sell-cont">
+                              <img src="/images/product3.PNG" alt="">
+                              <h3 class="best-sell-heading">Trending Product</h3>
+                        </div>
+                        <div class="best-sell-cont">
+                              <img src="/images/product2.PNG" alt="">
+                              <h3 class="best-sell-heading">Trending Product</h3>
+                        </div>
+                  </section>
             </main>
-            <!-- Main Container code End -->
-            <!-- Footer Code Start -->
+            <!------ Main Container code End ------>
+
+            <!------ Footer Code Start ------>
             <footer class="footer">
                   <div class="footer-header">Made with <span style="color: red;">❤</span> by Divya Namdev</div>
-                  <ul class="social-link list-non-bullet">
+                  <ul class="social-link list-non-bullet margin-top">
                         <li class="list-item-inline">
-                              <a class="link" href="https://github.com/Divya70">github</a>
+                              <a class="link" href="#">About Us</a>
                         </li>
                         <li class="list-item-inline">
-                              <a class="link" href="https://www.linkedin.com/in/divya-namdev-115a1619a">Linkedin</a>
+                              <a class="link" href="#">Contact Us</a>
                         </li>
                         <li class="list-item-inline">
-                              <a class="link" href="https://twitter.com/DivyaSi32558841?s=08">twitter</a>
+                              <a class="link" href="#">Privacy Policy</a>
+                        </li>
+                        <li class="list-item-inline">
+                              <a class="link" href="#">Security</a>
+                        </li>
+                        <li class="list-item-inline">
+                              <a class="link" href="#">Terms & Conditions</a>
                         </li>
                   </ul>
+                  <div class="copyright margin-top">
+                        copyright &copy;2022 spike store. All Right Reserved
+                  </div>
             </footer>
       </div>
       <script src="index.js"></script>
