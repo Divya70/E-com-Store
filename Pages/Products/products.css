@@ -1,25 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
-
-* {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-}
-
-:root {
-      --primary-color: #00B4D8;
-      --secondary-color: #90E0EF;
-      --navyblue-color: #03045E;
-      --white-color: #FFFFFF;
-      --black-color: #232020;
-      --box-shadow-black-color: rgba(0, 0, 0, 0.75);
-      --box-shadow-blue-color: rgba(0, 180, 216, 0.39);
-      --pink-color: #F21170;
-      --grey-color: rgb(158, 154, 154);
-      --red-color: rgb(250, 28, 28);
-}
-
 .brand-container {
       width: 100%;
       height: 100%;
@@ -27,41 +5,40 @@
 
 /* Navigation Code Start */
 .navigation-cont {
-      width: 75.9rem;
-      height: 5rem;
-      background-color: var(--primary-color);
+      width: 100%;
+      height: 15vh;
+      background-color: var(--secondary-color);
       display: flex;
       align-items: center;
       justify-content: space-around;
-      color: var(--navyblue-color);
+      color: var(--primary-color);
+      box-shadow: -1px 4px 19px -4px var(--box-shadow-black-color);
+      -webkit-box-shadow: -1px 4px 19px -4px var(--box-shadow-black-color);
+      -moz-box-shadow: -1px 4px 19px -4px var(--box-shadow-black-color);
+
 }
 
 .name-of-site {
       margin-right: 4rem;
-      font-size: 2rem;
-      font-weight: bolder;
-      cursor: pointer;
-}
-
-.name-of-site:hover {
-      color: var(--pink-color);
-      text-shadow: 1px 2px 3px var(--pink-color);
+      font-size: 2.5rem;
+      font-weight: 600;
+      font-family: 'Recursive', sans-serif;
+      color: var(--primary-color);
 }
 
 .searchbar {
       width: 20rem;
       height: 2rem;
-      background-color: var(--white-color);
       border-radius: 1rem;
       display: flex;
       align-items: center;
       padding: 1rem;
-      background-color: var(--secondary-color);
+      background-color: var(--searchbar-color);
 }
 
 .fa-search {
       font-size: 1rem;
-      color: var(--navyblue-color);
+      color: var(--primary-color);
 }
 
 .search-input {
@@ -72,37 +49,29 @@
       flex: 1;
       height: 2rem;
       font-weight: 600;
-      background-color: var(--secondary-color);
+      background-color: var(--searchbar-color);
 }
 
 .nav-buttons-cont {
       display: flex;
+      margin-left: 5rem;
 }
 
 .nav-button {
-      padding: 0.4rem;
+      padding: 0.6rem;
+      font-size: 1rem;
 }
 
 .nav-button i {
-      font-size: 1.5rem;
-}
-
-.login-btn {
-      margin-left: 1.5rem;
-      border: none;
-      cursor: pointer;
+      font-size: 1.3rem;
 }
 
 .nav-button a {
       font-size: 1.3rem;
       text-decoration: none;
-      color: var(--navyblue-color);
+      color: var(--primary-color);
       font-weight: 600;
-}
-
-.login-btn a:hover {
-      color: var(--pink-color);
-      text-shadow: 1px 2px 3px var(--pink-color);
+      margin-left: 1rem;
 }
 
 .nav-icons-name {
@@ -117,17 +86,18 @@
       border-radius: 50%;
       margin-left: 1.5rem;
       font-size: 1.5rem;
-      color: var(--white-color);
+      color: var(--primary-color);
+      margin-top: 0.5rem;
 }
 
 .icon-badge {
       position: absolute;
-      top: -10px;
-      right: -6px;
+      top: -9px;
+      right: -12px;
       width: 1.3rem;
       height: 1.3rem;
-      background: var(--red-color);
-      color: var(--white-color);
+      background: var(--badge-color);
+      color: var(--secondary-color);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -145,9 +115,13 @@
 
 /* Sidebar code */
 .sidebar-filter-sec {
+      margin-top: 0.05rem;
       width: 20rem;
       height: 30rem;
-      background-color: #bdecfc;
+      background-color: var(--secondary-color);
+      box-shadow: 0 4px 19px -4px var(--box-shadow-black-color);
+      -webkit-box-shadow: 0 4px 19px -4px var(--box-shadow-black-color);
+      -moz-box-shadow: 0 4px 19px -4px var(--box-shadow-black-color);
 }
 
 .filter-sidebar-heading {
@@ -173,7 +147,7 @@
 /* Product page code start */
 .products-title {
       text-align: center;
-      color: var(--navyblue-color);
+      color: var(--primary-color);
       margin: 1rem 0 2rem 0;
       font-size: 1.5rem;
       font-weight: bold;
@@ -192,18 +166,19 @@
 .card-container {
       position: relative;
       width: 11.4rem;
-      height: 20.5rem;
+      height: 19.5rem;
       border-radius: 0.2rem;
       margin: 2rem 0 1rem 2rem;
       display: inline-block;
-      box-shadow: -1px 5px 11px -1px rgba(0, 0, 0, 1);
-      -webkit-box-shadow: -1px 5px 11px -1px rgba(0, 0, 0, 1);
-      -moz-box-shadow: -1px 5px 11px -1px rgba(0, 0, 0, 1);
-      background-color: var(--white-color);
+      box-shadow: -1px 5px 11px -1px var(--box-shadow-black-color);
+      -webkit-box-shadow: -1px 5px 11px -1px var(--box-shadow-black-color);
+      -moz-box-shadow: -1px 5px 11px -1px var(--box-shadow-black-color);
+      background-color: var(--secondary-color);
 }
 
 .card-image img {
       width: 11.4rem;
+      height: 11rem;
       border-top-right-radius: 0.2rem;
       border-top-left-radius: 0.2rem;
 }
@@ -235,11 +210,11 @@
 
 .price-discount {
       text-decoration: line-through;
-      color: var(--grey-color);
+      color: var(--discount);
 }
 
 .price-OFF {
-      color: var(--red-color);
+      color: var(--red);
       font-weight: bold;
 }
 
@@ -248,9 +223,8 @@
       right: 0.1rem;
       top: 0.2rem;
       cursor: pointer;
-      color: var(--red-color);
+      color: var(--red);
       font-size: 1rem;
-      background: var(--white-color);
 
 }
 
@@ -265,29 +239,20 @@
 
 }
 
-/* Add to cart button */
-.icon-button-cont {
-      margin-left: 0.3rem;
-}
-
 .fa-shopping-cart {
       margin-right: 0.6rem;
 }
 
 .cart-button {
-      width: 10.4rem;
-      background: var(--pink-color);
+      width: 100%;
+      background: var(--primary-color);
       padding: 0.6rem;
-      box-shadow: -1px 4px 19px -4px rgba(0, 0, 0, 0.61);
-      -webkit-box-shadow: -1px 4px 19px -4px rgba(0, 0, 0, 0.61);
-      -moz-box-shadow: -1px 4px 19px -4px rgba(0, 0, 0, 0.61);
+      box-shadow: -1px 4px 19px -4px var(--box-shadow-black-color);
+      -webkit-box-shadow: -1px 4px 19px -4px var(--box-shadow-black-color);
+      -moz-box-shadow: -1px 4px 19px -4px var(--box-shadow-black-color);
       border: none;
       font-size: 0.8rem;
       font-weight: 600;
-      color: var(--white-color);
+      color: var(--secondary-color);
 
-}
-
-.cart-button:hover {
-      background-color: var(--primary-color);
 }
