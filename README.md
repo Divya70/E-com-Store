@@ -26,7 +26,8 @@ Spike E-com store is for online shopping women heels.
 - HTML
 - CSS
 
-
+## Demo 
+![](/images/ecom-preview.gif)
 ## Contact
 
 Divya Namdev- [@my_Linkedin](https://www.linkedin.com/in/divya-namdev-115a1619a/) - divyanamdev8795@gmail.com
