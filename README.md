@@ -1,6 +1,6 @@
 
 # Spike E-com Store
-
+Spike E-com store is for online shopping women heels.
 
 ## Screenshots
 
@@ -15,16 +15,17 @@
 
 
 ## This is E-commerce website, it contains six pages
- - Home 
-- Login 
-- sign Up 
-- Product listing 
-- Wishlist
-- Cart Management
+ - Home [link](https://e-com-online-store.netlify.app/index.html)
+- Login [link](https://e-com-online-store.netlify.app/pages/login/login)
+- sign Up [link](https://e-com-online-store.netlify.app/pages/signup/signup)
+- Product listing [link](https://e-com-online-store.netlify.app/pages/products/products)
+- Wishlist [link](https://e-com-online-store.netlify.app/pages/wishlist/wishlist)
+- Cart Management [link](https://e-com-online-store.netlify.app/pages/mycart/mycart)
 
 ## Tech Stack Used
 - HTML
 - CSS
+
 
 ## Contact
 
