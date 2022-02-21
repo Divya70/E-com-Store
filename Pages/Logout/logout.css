@@ -1,0 +1,24 @@
+.navigation-cont {
+      height: 4rem;
+}
+
+.main-content-cont {
+      margin: 4rem;
+}
+
+.logout-container {
+      margin: auto;
+      border: 2px solid var(--container-border);
+      width: 20rem;
+      height: 6rem;
+}
+
+.logout-message {
+      padding: 1rem;
+      font-size: 1rem;
+      font-weight: 900;
+}
+
+.again-login {
+      margin-left: 1rem;
+}

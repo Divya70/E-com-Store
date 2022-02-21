@@ -3,6 +3,10 @@
       height: 100%;
 }
 
+.navigation-cont {
+      height: 4rem;
+}
+
 /* Main Content Code Start */
 .main-content-cont {
       width: fit-content;

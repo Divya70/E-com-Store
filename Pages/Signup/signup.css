@@ -3,6 +3,10 @@
       height: 100%;
 }
 
+.navigation-cont {
+      height: 4rem;
+}
+
 /* Main Content Code Start */
 
 .signup-page-container {
