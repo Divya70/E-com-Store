@@ -3,6 +3,10 @@
       height: 100%;
 }
 
+.navigation-cont {
+      height: 4rem;
+}
+
 /* Main Content Code Start */
 .login-page-container {
       margin: auto;
