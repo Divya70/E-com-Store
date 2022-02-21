@@ -8,6 +8,101 @@
 }
 
 :root {
+      /* --primary-color: #3B82F6;
+      --secondary-color: #FFFFFF; */
+      /* --black-color: #333333; */
+      --home-subtitle: #679B9B;
+      --box-shadow-black-color: #000000bf;
+      --grey-color: #787A91;
+      --sidebar-hover: #FB3640;
+      --red-color: #ff0000;
+
+      /* alert-component-colors */
+      --primary-alert-bg: #9AD0EC;
+      --primary-alert: #1572A1;
+      --secondary-alert-bg: #E7FBBE;
+      --success-alert-bg: #96d88e;
+      --success-alert: #1E6F5C;
+      --danger-alert-bg: #FFAEC0;
+      --danger-alert: #c22d2d;
+      --warning-alert-bg: #FFDA77;
+      --warning-alert: #FF7B54;
+      --dark-alert-bg: #808686;
+
+      /* container border */
+      --container-border: #c0c0c0;
+
+      /* badge background color */
+      --discord-bg-color: #6867AC;
+      --whatsapp-bg-color: #B2EA70;
+      --email-bg-color: #AAAAAA;
+      --facebook-bg-color: #3B5998;
+
+      /* badge on text color */
+      --small-text-badge-bg: #52734D;
+      --medium-text-badge-bg: #b3541e;
+      --action-button-bg: #008cff;
+      --action-badge-bg: #ff2f6d;
+
+      /* badge on avtar color */
+      --green-avtar-badge-bg: #008000;
+      --red-avtar-badge-bg: #ff0000;
+      --grey-avtar-badge-bg: #808080;
+
+      /* Buttons Colors */
+      --primary-button-bg: #9AD0EC;
+      --primary-button-color: #1572A1;
+      --secondary-button-bg: #E7FBBE;
+      --secondary-button-color: #95CD41;
+      --danger-button-bg: #FFAEC0;
+      --danger-button-color: #c22d2d;
+      --success-button-bg: #96d88e;
+      --success-button-color: #1E6F5C;
+      --warning-button-bg: #FFDA77;
+      --warning-button-color: #FF7B54;
+      --info-button-bg: #96d88e;
+      --info-button-color: #24A19C;
+      --dark-button-bg: #808686;
+      --link-button-bg: #7868E6;
+      --link-button-color: #31326F;
+      --disable-button-bg: #C9CCD5;
+      --disable-button-color: #94928f;
+
+      /* floating button */
+      --floating-button-bg: #52734D;
+      --floating-button-color: #BDC7C9;
+      --plus-button-bg: #5800FF;
+      --floating-hover-color: #52734D;
+      --floating-hover-bg: #BDC7C9;
+      --plus-hover-color: #5800FF;
+
+      /* button with icon color */
+      --cart-icon-button-bg: #B6EB7A;
+      --cart-icon-button-color: #17706E;
+
+      /* Navbar color */
+      --navbar-bg-color: #F5F5F5;
+      --navbar-color: #03045E;
+      --searchbar-color: #e0e0e0;
+      --badge-color: #ff0000;
+
+      /* Button Colors */
+      --cart-button-bg: #03045E;
+      --discount: #555555;
+      --text-overlay-bg: #0000004d;
+
+      /* badge color */
+      --card-details-bg: #E7E7DE;
+      --new-badge-bg: #ff3f6ccc;
+      --new-badge-color: #fff;
+
+      /* Rating Color */
+      --rating-color: #ff7b00;
+      --rating-hover-color: #ffa500;
+
+}
+
+:root {
       --hover-color: #00B4D8;
       --primary-color: #03045E;
       --secondary-color: #F5F5F5;
